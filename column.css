@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+/* container */
+.container{
+    display: flex;
+    max-width: 700px;
+}
+/* Card Styles */
+.card{
+    flex-direction: column-reverse;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.sedan{
+    background-color: #e38826;
+    border-radius: 8px;
+}
+.suv{
+    background-color: #006970;
+    border-radius: 8px;
+}
+.luxury{
+    background-color: #004241;
+    border-radius: 8px;
+    
+}
+/* Button Styling */
+.learn.btn{
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.learn-btn:hover{
+    opacity: 0.7;
+}
+@media (max-width:425px) {
+    .container{
+        width:90%;
+    }
+}
